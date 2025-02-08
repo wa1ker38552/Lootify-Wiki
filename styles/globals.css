@@ -1,0 +1,7 @@
+:root {
+    --color: #EEEEEE; 
+    --color-dark: rgb(156, 156, 156);
+    --background: rgb(15 15 20);
+    --accent: rgb(30 30 40); 
+    --accent-hover: rgb(50, 50, 60);
+}
