@@ -299,3 +299,7 @@ ul {
 .log-container a {
     color: #d02c2c;
 }
+
+.primary-button-solid:hover {
+    transform: translateY(-2px);
+}
