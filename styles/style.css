@@ -32,6 +32,7 @@ input {
     padding: 0.5rem;
     line-height: 1rem;
     color: var(--color);
+    font-size: 1rem;
 }
 
 input:focus {
@@ -79,7 +80,7 @@ input:focus {
 }
 
 .wrapper {
-    width: 50rem;
+    width: 70%;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -152,7 +153,7 @@ input:focus {
 
 .item-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(calc(100% / 5), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(calc(100% / 8), 1fr));
     grid-gap: 1rem;
 }
 
@@ -229,9 +230,21 @@ input:focus {
     background: linear-gradient(var(--background), var(--background)) padding-box, linear-gradient(90deg,#ffffff,#00ddff) border-box;
 }
 
+.celestial span {
+    background: linear-gradient(90deg,#ffffff,#00ddff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .aetherial {
     border-color: transparent;
     background: linear-gradient(var(--background), var(--background)) padding-box, linear-gradient(90deg,#ffcc00,#7700ff) border-box;
+}
+
+.aetherial span {
+    background: linear-gradient(90deg,#ffcc00,#7700ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .infinity {
@@ -239,6 +252,13 @@ input:focus {
     background: linear-gradient(var(--background), var(--background)) padding-box, linear-gradient(90deg,#c42edf,#5c78f8,#65d8b1,#d48e7e) border-box;
 }
 
+.infinity span {
+    background: linear-gradient(90deg,#c42edf,#5c78f8,#65d8b1,#d48e7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .event {
-    border-color: #AA9420
+    border-color: #AA9420;
+    color: #AA9420 !important;
 }
